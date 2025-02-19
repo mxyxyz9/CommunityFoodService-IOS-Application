@@ -8,14 +8,18 @@
 import SwiftUI
 
 struct ContentView: View {
+    // TODO: Add authentication state
+    @State private var isAuthenticated = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+        Group {
+            if isAuthenticated {
+                MainTabView()
+            } else {
+                // TODO: Add authentication view
+                Text("Sign In")
+            }
         }
-        .padding()
     }
 }
 
