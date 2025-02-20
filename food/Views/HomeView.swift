@@ -1,7 +1,6 @@
 import SwiftUI
 import SwiftData
 import PhotosUI
-
 struct HomeView: View {
     @Environment(\.modelContext) private var modelContext
     @Query private var foodPosts: [FoodPost]
