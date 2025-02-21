@@ -10,7 +10,6 @@ struct ProfileView: View {
         streak: 7,
         totalDonations: 15
     )
-
     var body: some View {
         NavigationStack {
             List {
