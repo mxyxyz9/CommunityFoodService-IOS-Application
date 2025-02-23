@@ -41,7 +41,6 @@ final class FoodPost {
         self.isActive = true
     }
 }
-
 @Model
 final class Location {
     var latitude: Double
