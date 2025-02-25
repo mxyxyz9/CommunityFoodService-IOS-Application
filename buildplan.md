@@ -1,4 +1,4 @@
-# iOS Food Sharing App
+# iOS community Food Sharing App
 
 ## Tech Stack
 - **Swift**
