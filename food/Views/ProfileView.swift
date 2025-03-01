@@ -17,7 +17,7 @@ struct ProfileView: View {
                     HStack {
                         Image(systemName: "person.circle.fill")
                             .font(.system(size: 60))
-                            .foregroundColor(.blue)
+                            .foregroundColor(.gray)
 
                         VStack(alignment: .leading) {
                             Text(mockUser.name)
