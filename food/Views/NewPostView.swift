@@ -14,7 +14,7 @@ struct NewPostView: View {
     @State private var expirationHours = 4
     
     // TODO: Replace with actual user location
-    let location = Location(latitude: 37.7749, longitude: -122.4194, address: "San Francisco, CA")
+    let location = Location(latitude: 37.7348, longitude: -122.4194, address: "San Francisco, CA")
     
     var body: some View {
         NavigationStack {
