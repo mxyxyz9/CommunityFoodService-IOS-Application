@@ -192,6 +192,6 @@ struct FoodPostCard: View {
         .padding()
         .background(Color(.systemBackground))
         .clipShape(RoundedRectangle(cornerRadius: 16))
-        .shadow(radius: 2)
+        .shadow(radius: 5)
     }
 }
