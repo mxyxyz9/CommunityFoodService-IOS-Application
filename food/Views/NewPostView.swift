@@ -60,7 +60,7 @@ struct NewPostView: View {
                     Stepper("Available for \(expirationHours) hours", value: $expirationHours, in: 1...24)
                 }
             }
-            .navigationTitle("New Post")
+            .navigationTitle("Create New Post")
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
