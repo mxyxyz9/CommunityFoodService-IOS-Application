@@ -7,7 +7,6 @@ extension CLLocationCoordinate2D: Equatable {
         lhs.latitude == rhs.latitude && lhs.longitude == rhs.longitude
     }
 }
-
 struct LocationPickerView: View {
     @Environment(\.dismiss) var dismiss
     @Binding var selectedLocation: Location?
