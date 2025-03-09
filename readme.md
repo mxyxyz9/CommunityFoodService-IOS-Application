@@ -194,7 +194,7 @@ Empowering communities to share food easily and responsibly. Built with Swift, S
 1. Daily food donations maintain a streak. 🔥
 2. A leaderboard displays the top donors. 🏅
 3. Milestone badges are earned. 🎖️
-4. Users can share their ranking on social media. 📢
+4. Users can share their rankings on social media. 📢
 
 ---
 
