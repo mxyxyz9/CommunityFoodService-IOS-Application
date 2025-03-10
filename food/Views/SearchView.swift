@@ -8,7 +8,7 @@ struct SearchView: View {
     @State private var selectedDistance = 5
     @State private var minimumServings = 1
     
-    let distanceOptions = [1, 2, 5, 10]
+    let distanceOptions = [1, 2,5,10,15]
     
     var body: some View {
         NavigationStack {
