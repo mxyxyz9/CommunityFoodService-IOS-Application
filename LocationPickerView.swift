@@ -94,7 +94,7 @@ struct LocationPickerView: View {
                 }
                 .background(Color(.systemBackground))
                 .cornerRadius(20)
-                .shadow(radius: 5)
+                .shadow(radius: 8)
                 .padding(.horizontal, 8)
                 .padding(.bottom, 8)
             }
@@ -119,7 +119,6 @@ struct LocationPickerView: View {
             }
         }
     }
-    
     private func reverseGeocodeCoordinate(coordinate: CLLocationCoordinate2D) {
         let geocoder = CLGeocoder()
         geocoder.reverseGeocodeLocation(CLLocation(latitude: coordinate.latitude, longitude: coordinate.longitude)) { placemarks, error in
@@ -131,7 +130,6 @@ struct LocationPickerView: View {
         }
     }
 }
-
 class LocationManager: NSObject, ObservableObject, CLLocationManagerDelegate {
     private let manager = CLLocationManager()
     @Published var lastLocation: CLLocation?
