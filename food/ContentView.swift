@@ -17,7 +17,7 @@ struct ContentView: View {
                 MainTabView()
             } else {
                 // TODO: Add authentication view
-                Text("Sign In")
+                Text("Sign In Required")
             }
         }
     }
