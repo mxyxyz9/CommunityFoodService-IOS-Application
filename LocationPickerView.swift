@@ -25,8 +25,7 @@ struct LocationPickerView: View {
         ZStack {
             DraggableMapView(coordinate: $pinCoordinate, region: $region)
                 .edgesIgnoringSafeArea(.all)
-                // If you get "Missing argument label 'of:' in call," revert to:
-                // .onChange(of: pinCoordinate) { newValue in ...
+
                 .onChange(of: pinCoordinate) { newValue in
                     reverseGeocodeCoordinate(coordinate: newValue)
                 }
