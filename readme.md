@@ -58,7 +58,7 @@ Tired of food going to waste? Share it instead! 🙌 Built with **Swift, SwiftUI
 ### 🔍 Search
 - **Find food fast:** No aimless scrolling. 🚀
 - **Filters:**
-  - Veg / Non-Veg 🌱🍗
+  - Veg / Non-Veg 🌱 🍗
   - Distance 📏
   - How much food? 👥
 - **Sort options:** Nearest, freshest, or most popular. 🔄
@@ -78,8 +78,8 @@ Tired of food going to waste? Share it instead! 🙌 Built with **Swift, SwiftUI
 1. Open the app 📲
 2. Pick login method:
    - Phone 📞
-   - Google + Phone 🌐📞
-   - Apple ID + Phone 🍏📞
+   - Google + Phone 🌐 📞
+   - Apple ID + Phone 🍏 📞
 3. OTP verification 🔑
 4. Set profile, grant location access 📍
 5. Boom. You’re in. 🎉
