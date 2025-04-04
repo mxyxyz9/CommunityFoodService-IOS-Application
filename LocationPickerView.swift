@@ -13,7 +13,7 @@ struct LocationPickerView: View {
     
     @State private var region = MKCoordinateRegion(
         center: CLLocationCoordinate2D(latitude: 37.7759, longitude: -122.4304),
-        span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05)
+        span: MKCoordinateSpan(latitudeDelta: 0.065, longitudeDelta: 0.065)
     )
     @State private var pinCoordinate = CLLocationCoordinate2D(latitude: 37.7749, longitude: -122.4194)
     @State private var addressText: String = ""
