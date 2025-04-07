@@ -6,9 +6,9 @@ struct ProfileView: View {
 
     // TODO: Replace with actual user data
     let mockUser = (
-        name: "John Doe",
-        streak: 7,
-        totalDonations: 15
+        name: "",
+        streak: 0,
+        totalDonations: nil
     )
     var body: some View {
         NavigationStack {
