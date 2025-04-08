@@ -38,7 +38,7 @@ Tired of food going to waste? Share it instead! 🙌 Built with **Swift, SwiftUI
 
 - **Font:** SF Pro Rounded (because aesthetics matter 🖋️)
 - **Minimal but cute UI:** Less clutter, more vibes ✨
-- **Dark mode default:** Your eyes will thank you. 🌙
+- **Dark mode default:** Your eyes will thank you later. 🌙
 
 ---
 
