@@ -1,4 +1,6 @@
 **Community Food Service – iOS Application**
+
+
 A community-driven food sharing platform that empowers individuals to donate surplus food, discover available listings nearby, and track their donation history—promoting sustainability and reducing food waste.
 
 ---
